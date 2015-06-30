@@ -1,0 +1,21 @@
+{
+    "name": "finlay/yii2-couchbase",
+    "description": "CouchBase extension",
+    "type": "yii2-extension",
+    "keywords": ["yii2","couchbase"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Carlos A. Llorca Santana",
+            "email": "cllorca@finlay.edu.cu"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "finlay\\couchbase\\": ""
+        }
+    }
+}
